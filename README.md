@@ -1,8 +1,13 @@
 # Fibonacci Caesar Cipher
 
-A [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) that shifts letters based on the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number).
+A [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) that shifts letters based on the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number). You should not use this to protect secrets. That said, it is slightly more interesting and obscure than the ubiquitous [ROT13](https://en.wikipedia.org/wiki/ROT13).
 
-You should not use this to protect secrets. That said, it is slightly more interesting and obscure than the ubiquitous [ROT13](https://en.wikipedia.org/wiki/ROT13).
+**Sample**
+
+> We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.
+
+*Wf iqoi buzah eftgtr ey wj sjqp-tuwqfbi, wzvg igo kfm aqd aozsgjv bfgby, hipj ycet vhp fzqnipa jd gzjft Bsebuqu bqgc khchzvz tykgnesflad Fvhviv, lcnb vpmof tgdqb vjr Qact, Xjossio fid ocu avdftue ln Mnhufpdts.*
+
 
 ## Usage
 Pass either *encrypt* or *decrypt* along with the message to `fibrot`. For instance:
@@ -73,9 +78,7 @@ $ key_schedule 5
     3            3
 
 
-## Detailed Encipherment Example
-
-> ATTACK AT DAWN
+## Encipherment Example
 
 |                         |   |   |   |   |   |   |     |    |    |      |    |    |     |     |
 | ----------------------- | - | - | - | - | - | - | --- | -- | -- | ---- | -- | -- | --- | --- |
@@ -85,11 +88,20 @@ $ key_schedule 5
 | **Result:**             | A | U | U | C | F | P |     | I  | G  |      | Y  | I  | Z   | Y   |
 
 
-## Long Example
+## Decryption Exercise for the Reader
 
-*We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.*
-
-> Wf iqoi buzah eftgtr ey wj sjqp-tuwqfbi, wzvg igo kfm aqd aozsgjv bfgby, hipj ycet vhp fzqnipa jd gzjft Bsebuqu bqgc khchzvz tykgnesflad Fvhviv, lcnb vpmof tgdqb vjr Qact, Xjossio fid ocu avdftue ln Mnhufpdts.
+> Wf'sg qt agmiqrsqf fn wyqj
+> Ytz ucnk gis gxdzf iig qp co H
+> Z drgd ptejxfnrbu'h mmvt D'h jsjzxhzr ln
+> Dbm blwken'u hgw ypvn nuza zak nerzw gzd
+>  
+> S ytgg xocw lj gmgo wpt hnv G'j awrqakv
+> Spghb bqpz yjp kyeqerflkl
+>  
+> Srnjo inonb hkyj gbp cs, ysurd fzxif ljy idt rbxb
+> Chnze ojqlb qum zplpfq ffa sqtrfu nez
+> Ieqzh rpzaz ylhm dbm hoa, mfvfs irsvn nib rcnqnxp
+> Xzaew lycmo gfza d ddr iig fvqt xns
 
 
 ## Feedback
