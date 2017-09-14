@@ -90,17 +90,17 @@ $ key_schedule 5
 
 ## Decryption Exercise for the Reader
 
-> Wf'sg qt agmiqrsqf fn wyqj
-> Ytz ucnk gis gxdzf iig qp co H
-> Z drgd ptejxfnrbu'h mmvt D'h jsjzxhzr ln
-> Dbm blwken'u hgw ypvn nuza zak nerzw gzd
+> Wf'sg qt agmiqrsqf fn wyqj  
+> Ytz ucnk gis gxdzf iig qp co H  
+> Z drgd ptejxfnrbu'h mmvt D'h jsjzxhzr ln  
+> Dbm blwken'u hgw ypvn nuza zak nerzw gzd  
 >  
-> S ytgg xocw lj gmgo wpt hnv G'j awrqakv
-> Spghb bqpz yjp kyeqerflkl
+> S ytgg xocw lj gmgo wpt hnv G'j awrqakv  
+> Spghb bqpz yjp kyeqerflkl  
 >  
-> Srnjo inonb hkyj gbp cs, ysurd fzxif ljy idt rbxb
-> Chnze ojqlb qum zplpfq ffa sqtrfu nez
-> Ieqzh rpzaz ylhm dbm hoa, mfvfs irsvn nib rcnqnxp
+> Srnjo inonb hkyj gbp cs, ysurd fzxif ljy idt rbxb  
+> Chnze ojqlb qum zplpfq ffa sqtrfu nez  
+> Ieqzh rpzaz ylhm dbm hoa, mfvfs irsvn nib rcnqnxp  
 > Xzaew lycmo gfza d ddr iig fvqt xns
 
 
