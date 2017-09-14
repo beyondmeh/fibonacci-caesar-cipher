@@ -8,11 +8,15 @@ You should not use this to protect secrets. That said, it is slightly more inter
 Pass either *encrypt* or *decrypt* along with the message to `fibrot`. For instance:
 
 
+### Encrypt
+
 ```console
 $ fibrot encrypt "Hello World"
 ```
 
     Hfmnr Bwegl
+
+### Decrypt
 
 ```console
 $ fibrot decrypt "Gppfedm Pmchw Knexc"
@@ -24,7 +28,7 @@ $ fibrot decrypt "Gppfedm Pmchw Knexc"
 
 Characters are rotated based on their position and corresponding Fibonacci number. Non-alphabet letters are skipped. Fibonacci numbers past the 10th number are [modulo](https://en.wikipedia.org/wiki/Modulo_operation) by 26; the 10th number in the series is 34, so the result would be to rotate by 8 characters.
 
-## Key Schedule
+### Key Schedule
 The below sample table is for 20 iterations / characters, the main `fibrot` script supports longer or shorter messages.
 
 
@@ -73,20 +77,15 @@ $ key_schedule 5
 
 > ATTACK AT DAWN
 
+|                         |   |   |   |   |   |   |     |    |    |      |    |    |     |     |
 | ----------------------- | - | - | - | - | - | - | --- | -- | -- | ---- | -- | -- | --- | --- |
 | **Message:**            | A | T | T | A | C | K |     | A  | T  |      | D  | A  | W   | N   |
 | **Fibonacci Sequence:** | 0 | 1 | 1 | 2 | 3 | 5 | 8   | 13 | 21 | 34   | 55 | 89 | 144 | 233 |
-| **Rotation:**           | 0 | 1 | 1 | 2 | 3 | 5 | *-* | 13 | 21 | *-*  | 3  | 11 | 14  | 25  |
+| **Rotation:**           | 0 | 1 | 1 | 2 | 3 | 5 |  -  | 13 | 21 | -    | 3  | 11 | 14  | 25  |
 | **Result:**             | A | U | U | C | F | P |     | I  | G  |      | Y  | I  | Z   | Y   |
 
 
-### Other Examples
-
-*Hello World*
-
-> Hfmnr Bwegl
-
----
+## Long Example
 
 *We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.*
 
