@@ -1,0 +1,30 @@
+#!/bin/bash
+
+
+if [ -z "$1" ]; then
+    len=10
+else
+    len="$1"
+fi
+
+
+f1=0
+f2=1
+
+
+for (( i=0; i < len; i++ )); do
+    # use bc over bash's built-in arithmetic $(( )) because bash can't 
+    # handle large numbers. Specifically anything past the 92nd number 
+    # in the fibonacci series is too large (92 = 7540113804746346429)
+
+    if [ $i -eq 0 ]; then
+        echo "fibonacci | rotation"
+    fi
+    
+    echo -n "$f1 | "
+    echo "$f1 % 26" | bc
+
+    fn=$(echo "$f1 + $f2" | bc)
+    f1=$f2
+    f2=$fn
+done | column -s '|' -t
