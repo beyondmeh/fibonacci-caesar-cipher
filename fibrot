@@ -29,7 +29,7 @@ rot() {
         alpha="abcdefghijklmnopqrstuvwxyz"
     fi
 
-    rotate=$(($2 % 26))
+    rotate=$(echo "$2 % 26" | bc)
     sed "y/${alpha}/${alpha:$rotate}${alpha::$rotate}/" <<< $1
 }
 
