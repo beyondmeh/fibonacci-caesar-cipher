@@ -109,6 +109,6 @@ Submit bug reports via GitHub's [Issue Tracker](https://github.com/beyondmeh/fib
 ## Author
 Copyright &copy; 2017-2023 BeyondMeh, except where otherwise noted.
 
-Licensed under the [MIT license](https://github.com/keithieopia/fibonacci-caesar-cipher/blob/master/LICENSE).
+Licensed under the [MIT license](https://github.com/beyondmeh/fibonacci-caesar-cipher/blob/master/LICENSE).
 
 *This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.*
