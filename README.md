@@ -103,22 +103,11 @@ $ key_schedule 5
 > Ieqzh rpzaz ylhm dbm hoa, mfvfs irsvn nib rcnqnxp  
 > Xzaew lycmo gfza d ddr iig fvqt xns
 
-
-## Feedback
-I would love your feedback! If you use `piu` in your status bar send me [an email](mailto:timothykeith@gmail.com) with a screenshot. For the privacy conscious, feel free to encrypt any messages using my [PGP key](http://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0xF4F4A135C022EE12):
-
-> 4135 C593 1D89 368E 7F32 C8ED F4F4 A135 C022 EE12
-
-To import it into your keyring:
-```console
-$  gpg --keyserver pgp.mit.edu --recv-key 4135C5931D89368E7F32C8EDF4F4A135C022EE12
-```
-
-Submit bug reports via GitHub's [Issue Tracker](https://github.com/keithieopia/fibonacci-caesar-cipher/issues)
+Submit bug reports via GitHub's [Issue Tracker](https://github.com/beyondmeh/fibonacci-caesar-cipher/issues)
 
 
 ## Author
-Copyright &copy; 2017 Timothy Keith, except where otherwise noted.
+Copyright &copy; 2017-2023 BeyondMeh, except where otherwise noted.
 
 Licensed under the [MIT license](https://github.com/keithieopia/fibonacci-caesar-cipher/blob/master/LICENSE).
 
